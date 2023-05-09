@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up form</title>
+</head>
+<body>
+    <form>
+        <ul>
+            <li>
+                <label for="name">name</label>
+                <input type="text" name="name" id="name" placeholder="enter your full name">
+            </li>
+            <li>
+                <label for="email">Email</label>
+                <input type="email" name="mail" id="email" placeholder="franc@email.com">
+            </li>
+            <li>
+                <label for="phone">mobile number</label>
+                <input type="tel" name="phone" id="phone" placeholder="08100144840">
+            </li>
+            <li>
+                <label for="pwd">password</label>
+                <input type="password" name="pass" id="pwd">
+            </li>
+            <li>
+                <label for="address">home address</label>
+                <textarea name="address" id="address" cols="30" rows="4"></textarea>
+            </li>
+            <li>
+                <label for="dob">date of birth</label>
+                <input type="date" name="dob" id="dob">
+            </li>
+
+            <li>
+                <p>Gender</p>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+
+                <input type="radio" name="gender" id="female" checked>
+                <label for="female">Female</label>
+            </li>
+
+            <li>
+                <label for="country">country</label>
+
+                <select>
+                    <optgroup label="Africa">
+                        <option value="ng">Nigeria</option>
+                        <option value="tg">Togo</option>
+                        <option value="eg">Egypt</option>
+                    </optgroup>
+                    <optgroup label="Asia">
+                        <option value="ch">China</option>
+                        <option value="jp">Japan</option>
+                        <option value="ml">Malaysia</option>
+                    </optgroup>
+                    <optgroup label="South America">
+                        <option value="ar">Argentina</option>
+                        <option value="br">Brazil</option>
+                        <option value="ur">Uruguay</option>
+                    </optgroup>
+                    <optgroup label="North America">
+                        <option value="usa">USA</option>
+                        <option value="ca">Canada</option>
+                        <option value="mx">Mexico</option>
+                    </optgroup>
+                    <optgroup label="Europe">
+                        <option value="al">Germany</option>
+                        <option value="po">Poland</option>
+                        <option value="au">Austria</option>
+                    </optgroup>
+                </select>
+            </li>
+            <li>
+                
+            </li>
+        </ul>
+    </form>
+</body>
+</html>
